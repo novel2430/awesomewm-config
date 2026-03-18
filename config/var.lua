@@ -18,7 +18,7 @@ M.my_color = {
   fg = "#eceff4ff",
   bg = "#2d2825ff",
   high_bg = "#5e936cff",
-  sec_bg = "#827f45ff",
+  sec_bg = "#5e936c6f",
 }
 
 M.my_size = {

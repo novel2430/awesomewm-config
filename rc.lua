@@ -51,4 +51,4 @@ require("config.my_rules").run(my_keys)
 require("config.my_signals").run(my_wibox)
 
 -- Autostart
-awful.spawn.once("my-awesome-autostart &")
+awful.spawn.once("awesomewm-autostart &")
