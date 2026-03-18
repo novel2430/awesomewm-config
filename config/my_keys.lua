@@ -32,7 +32,7 @@ M.globalkeys = gears.table.join(
     function()
       awful.screen.focus_relative(1)
     end,
-    { description = "focus next monitor", group = "screen" }
+    { description = "focus next monitor", group = "client" }
   ),
 
   -- TAG

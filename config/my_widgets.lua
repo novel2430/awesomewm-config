@@ -156,7 +156,7 @@ local function cpu_temp_update()
   M.temp_widget.markup = string.format("<span foreground='%s'>%s</span>", config_var.my_color.fg, display)
 end
 -- textclock widget
-M.textclock         = wibox.widget.textclock(" %Y-%m-%d %a %H:%M", 5, "Asia/Shanghai")
+M.textclock         = wibox.widget.textclock(" %Y-%m-%d %a %H:%M", 5, "Asia/Shanghai")
 -- Taglist Buttons
 M.taglist_buttons   = gears.table.join(
   awful.button({}, 1, function(t) t:view_only() end),
