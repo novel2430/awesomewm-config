@@ -26,7 +26,16 @@ local move_focus_to_client = function(prev, next)
 end
 
 M.globalkeys = gears.table.join(
--- TAG
+
+-- Switch Monitor
+  awful.key({ modkey }, "o",
+    function()
+      awful.screen.focus_relative(1)
+    end,
+    { description = "focus next monitor", group = "screen" }
+  ),
+
+  -- TAG
   awful.key({ modkey, }, "s", hotkeys_popup.show_help,
     { description = "show help", group = "awesome" }),
   awful.key({ modkey, "Control" }, "Left", awful.tag.viewprev,
